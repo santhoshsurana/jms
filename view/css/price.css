@@ -1,0 +1,58 @@
+
+ol,ul{list-style:none}
+
+
+.pricing-table li:before{display:none;content:''}
+.pricing-table h4{font-size:24px;font-size:2.4rem;font-family:'Roboto Slab',serif!important;margin-bottom:14px}
+.pricing-table .price{color:#ff9600;font-size:18px;font-size:1.8rem;font-weight:700}
+.pricing-table .buy-button{padding-top:13px}
+.pricing-table i{margin-left:5px}
+.pricing-table .best-value .inner h4{color:#ff9600}
+.pricing-table .desc-mobile{display:none}
+.pricing-table.style-primary .col{float:left}
+.pricing-table.style-primary .feature{text-align:center;margin-top:-1px}
+.pricing-table.style-primary .inside{-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;border:1px solid transparent;margin:0 12px;padding:25px 0;-webkit-transition:all .3s ease;-moz-transition:all .3s ease;-o-transition:all .3s ease;transition:all .3s ease}
+.pricing-table.style-primary .best-value .inside{padding:45px 0;margin-top:-20px;border:1px solid #ff9600}
+.pricing-table.style-primary .features-list .inside{border:0}
+.pricing-table.style-primary .feature .inside:hover{-webkit-box-shadow:1px 1px 17px #ececec;-moz-box-shadow:1px 1px 17px #ececec;box-shadow:1px 1px 17px #ececec;border-color:#ff9600!important}
+.pricing-table.style-primary .features-list{font-weight:700}
+.pricing-table.style-primary ul{margin-bottom:0}
+.pricing-table.style-primary ul.last{margin-right:0!important}
+.pricing-table.style-primary li{margin-bottom:0;padding:9px 0}
+.pricing-table.style-primary .feature li.title{font-size:24px;font-size:2.4rem;font-weight:400;font-family:'Roboto Slab',serif}
+.pricing-table.style-primary .feature li.odd,.pricing-table.style-primary .features-items-left .odd{background-color:#fafafa}
+@media only screen and (max-width:1199px){
+	.pricing-table.style-primary .feature li.title{font-size:18px;font-size:1.8rem}
+}
+@media only screen and (max-width:959px){
+	.pricing-table.style-primary .feature li.title{font-size:14px;font-size:1.4rem}
+}
+@media only screen and (max-width:767px){
+	.pricing-table.style-primary .col{float:none;width:100%!important;margin-bottom:18px}
+	.pricing-table.style-primary .best-value .inside{margin-top:0}
+	.pricing-table.style-primary .feature li.title{font-size:24px;font-size:2.4rem}
+	.pricing-table.style-primary .best-value .inside{padding:20px 0 35px!important}
+	.pricing-table.style-primary .desc-mobile{display:inline;font-weight:700}
+	.pricing-table.style-primary .desc-mobile:after{display:inline;content:'\003A'}
+}
+.pricing-table.style-second .inside{-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;padding:20px 10px;border:1px solid #e6e6e6;-webkit-transition:all .3s ease;-moz-transition:all .3s ease;-o-transition:all .3s ease;transition:all .3s ease;text-align:center}
+.pricing-table.style-second .inside:hover{border-color:#ff9600!important;-webkit-box-shadow:1px 1px 17px #ececec;-moz-box-shadow:1px 1px 17px #ececec;box-shadow:1px 1px 17px #ececec}
+.pricing-table.style-second .inside:hover .inner{border-color:#e6e6e6!important}
+.pricing-table.style-second ul{margin-right:-10px;margin-left:-10px;margin-bottom:0}
+.pricing-table.style-second li{margin-bottom:0;padding:9px 0}
+.pricing-table.style-second li.odd{background-color:#fafafa}
+.pricing-table.style-second .buy-button{padding-top:15px}
+.pricing-table.style-second .best-value .inside{margin-top:-20px}
+.pricing-table.style-second .best-value .inside{padding:40px 10px;border-color:#ff9600}
+.pricing-table.style-third .inside{-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;padding:10px;background-color:#fafafa;border:1px solid transparent;-webkit-transition:all .3s ease;-moz-transition:all .3s ease;-o-transition:all .3s ease;transition:all .3s ease}
+.pricing-table.style-third .inside:hover{border-color:#ff9600!important;-webkit-box-shadow:1px 1px 17px #ececec;-moz-box-shadow:1px 1px 17px #ececec;box-shadow:1px 1px 17px #ececec}
+.pricing-table.style-third .inside:hover .inner{border-color:#e6e6e6!important}
+.pricing-table.style-third .inner{border:1px solid #e6e6e6;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;padding:13px;text-align:center}
+.pricing-table.style-third li{margin-bottom:17px}
+.pricing-table.style-third .best-value .inside{margin-top:-20px}
+.pricing-table.style-third .best-value .inner{padding:35px 10px;border-color:#ff9600}
+@media only screen and (max-width:959px){.pricing-table h4{font-size:18px;font-size:1.8rem}
+}
+@media only screen and (max-width:767px){.pricing-table h4{font-size:24px;font-size:2.4rem}
+.pricing-table .inside{margin-bottom:18px}
+}
